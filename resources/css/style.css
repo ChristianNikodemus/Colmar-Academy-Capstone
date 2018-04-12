@@ -36,11 +36,13 @@ body {
 h2 {
   font-size: 2rem;
   font-weight: bold;
+  color: #383838;
 }
 
 h3 {
   font-size: 1rem;
   font-weight: 600;
+  color: #383838;
 }
 
 /* Header */
@@ -116,7 +118,6 @@ nav ul li {
   display: inline-flex;
   justify-content: center;
   flex-flow: column;
-  color: #383838;
   width: 24%;
 }
 
@@ -158,16 +159,18 @@ nav ul li {
 
 .flex-wrap {
   display: flex;
+  margin: 2rem;
 }
 
 .practice {
   flex: 3
+  margin: 2rem 1.5rem;
 }
 
 .three-boxes {
   flex: 2;
 }
-.hurt-picture {
-  margin: 2rem 1.5rem;
-  width: 60%;
+
+.hurt-picture img{
+  width: 100%;
 }

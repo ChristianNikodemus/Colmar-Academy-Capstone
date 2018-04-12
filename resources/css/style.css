@@ -163,11 +163,22 @@ nav ul li {
 
 .practice {
   flex: 3
-  margin: 2rem 1.5rem;
 }
 
 .three-boxes {
   flex: 2;
+}
+
+.first-box {
+  display: inline-block;
+}
+
+.second-box {
+  display: inline-block;
+}
+
+.third-box {
+  display: inline-block;
 }
 
 .three-boxes img {

@@ -180,28 +180,26 @@ nav ul li {
 
 .first-box {
   display: flex;
-  align-self: center;
 }
 
 .second-box {
   display: flex;
-  align-self: center;
 }
 
 .third-box {
   display: flex;
-  align-self: center;
 }
 
 .three-boxes div {
-  display: block;
   clear: both;
+  align-self: center;
 }
 
 .three-boxes img {
   float: left;
   height: auto;
   width: 35%;
+  align-self: center;
 }
 
 .hurt-picture img{

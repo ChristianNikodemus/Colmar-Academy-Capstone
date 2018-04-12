@@ -179,7 +179,7 @@ nav ul li {
 }
 
 .hurt-picture h6 {
-  bottom: 0;
+  margin-top: 5rem;
 }
 
 .practice {
@@ -189,6 +189,7 @@ nav ul li {
 
 .three-boxes {
   flex: 2;
+  margin: 2rem 0;
 }
 
 .first-box {
@@ -197,7 +198,7 @@ nav ul li {
 }
 
 .first-box img {
-  margin: 3rem 1rem 1rem 1rem;
+  margin: 0 1rem 1rem 1rem;
 }
 
 .second-box img {
@@ -205,7 +206,7 @@ nav ul li {
 }
 
 .third-box img{
-  margin: 1rem 1rem 3rem 1rem;
+  margin: 1rem 1rem 1rem 1rem;
 }
 
 .second-box {

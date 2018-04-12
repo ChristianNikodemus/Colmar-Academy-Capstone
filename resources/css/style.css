@@ -170,15 +170,19 @@ nav ul li {
 }
 
 .first-box {
-  display: inline-block;
+  display: inline-flex;
+}
+
+.first-box img {
+  display: block;
 }
 
 .second-box {
-  display: inline-block;
+  display: inline-flex;
 }
 
 .third-box {
-  display: inline-block;
+  display: inline-flex;
 }
 
 .three-boxes img {

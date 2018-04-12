@@ -171,6 +171,12 @@ nav ul li {
   flex: 2;
 }
 
+.hurt-picture {
+  margin: 2rem 1.5rem;
+  width: 60%;
+
+}
+
 .hurt-picture img{
   width: 100%;
 }

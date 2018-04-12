@@ -166,22 +166,12 @@ nav ul li {
 }
 
 .three-boxes {
+  display: block;
   flex: 2;
 }
 
-.first-box {
-  display: inline;
-}
-
-.second-box {
-  display: inline;
-}
-
-.third-box {
-  display: inline;
-}
-
 .three-boxes img {
+  float: left;
   height: auto;
   width: 35%;
 }

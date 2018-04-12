@@ -168,28 +168,28 @@ nav ul li {
 
 .flex-wrap {
   display: flex;
-  margin: 2rem 0;
 }
 
 .hurt-picture {
-  margin: 0 1.5rem;
+  margin: 2rem 1.5rem;
 }
 
 .practice {
-  flex: 3
+  border-right: 1px solid #696969;
+  flex: 3;
 }
 
 .three-boxes {
   flex: 2;
-  border-left: 2px solid grey;
 }
 
 .first-box {
   display: flex;
+  border-bottom: 1px double #696969;
 }
 
 .first-box img {
-  margin: 0 1rem 1rem 1rem;
+  margin: 3rem 1rem 1rem 1rem;
 }
 
 .second-box img {
@@ -197,7 +197,7 @@ nav ul li {
 }
 
 .third-box img{
-  margin: 1rem 1rem 0 1rem;
+  margin: 1rem 1rem 3rem 1rem;
 }
 
 .second-box {

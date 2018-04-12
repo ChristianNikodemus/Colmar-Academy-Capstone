@@ -170,28 +170,20 @@ nav ul li {
 }
 
 .first-box {
-  display: inline-flex;
-}
-
-.first-box img {
-  display: block;
+  display: inline;
 }
 
 .second-box {
-  display: inline-flex;
+  display: inline;
 }
 
 .third-box {
-  display: inline-flex;
+  display: inline;
 }
 
 .three-boxes img {
   height: auto;
   width: 35%;
-}
-
-.hurt-picture {
-  width: 60%;
 }
 
 .hurt-picture img{

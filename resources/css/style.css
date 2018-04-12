@@ -166,8 +166,11 @@ nav ul li {
 }
 
 .three-boxes {
-  display: block;
   flex: 2;
+}
+
+.three-boxes div {
+  display: block;
   clear: both;
 }
 

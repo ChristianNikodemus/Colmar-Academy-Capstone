@@ -159,7 +159,6 @@ nav ul li {
 
 .flex-wrap {
   display: flex;
-  margin: 2rem;
 }
 
 .practice {
@@ -171,10 +170,13 @@ nav ul li {
   flex: 2;
 }
 
-.hurt-picture {
-  margin: 2rem 1.5rem;
-  width: 60%;
+.three-boxes img {
+  height: auto;
+  width: 35%;
+}
 
+.hurt-picture {
+  width: 60%;
 }
 
 .hurt-picture img{

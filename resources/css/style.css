@@ -168,9 +168,11 @@ nav ul li {
 
 .flex-wrap {
   display: flex;
+  margin: 2rem 0;
 }
 
 .hurt-picture {
+  margin: 0 1.5rem;
 }
 
 .practice {
@@ -179,10 +181,23 @@ nav ul li {
 
 .three-boxes {
   flex: 2;
+  border-left: 2px solid grey;
 }
 
 .first-box {
   display: flex;
+}
+
+.first-box img {
+  margin: 0 1rem 1rem 1rem;
+}
+
+.second-box img {
+  margin: 1rem 1rem;
+}
+
+.third-box img{
+  margin: 1rem 1rem 0 1rem;
 }
 
 .second-box {
@@ -211,7 +226,6 @@ nav ul li {
   height: auto;
   width: 35%;
   align-self: center;
-  margin: 1rem 1rem;
 }
 
 .hurt-picture img{

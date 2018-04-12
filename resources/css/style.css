@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Hind Regular'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v8/5aU69_a8oxmIdGl4BDGwgDI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Hind SemiBold'), local('Hind-SemiBold'), url(https://fonts.gstatic.com/s/hind/v8/5aU19_a8oxmIfLZcERySjRhc9V0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Hind Bold'), local('Hind-Bold'), url(https://fonts.gstatic.com/s/hind/v8/5aU19_a8oxmIfNJdERySjRhc9V0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Universal Styles */
+
+html {
+  font-family: "Hind", "Arial", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Header */
+
+header {
+  display: inline-flex;
+  position: fixed;
+  z-index: 1;
+  width: 96%;
+  background-color: white;
+  padding: 0 1.5rem;
+  align-items: center;
+  height: 4rem;
+  justify-content: space-between;
+}
+
+header span {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+span strong {
+  font-weight: bold;
+}
+
+nav ul li {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display:flex;
+    width: 100%;
+  }
+  .mobile ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
+/* Learn Something new Everyday */
+
+.something {
+  background-color: #c0c0c0;
+  display: inline-flex;
+  margin-top: 4rem;
+}
+
+.picture {
+  width: 60%;
+  margin: 2rem 1.5rem;
+  float: left;
+}
+
+.picture img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text {
+  display: inline-flex;
+  justify-content: center;
+  flex-flow: column;
+  color: #383838;
+  width: 24%;
+}
+
+.start {
+  background-color: #383838;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    width: 89%;
+  }
+
+  .something {
+    flex-flow: column;
+    align-items: center;
+  }
+  .picture {
+    width: 100%;
+    margin-top: 0;
+  }
+  .text {
+    margin: 2rem 1rem;
+    width: auto;
+  }
+  .text h3 {
+    margin-top: 2rem;
+  }
+  .start {
+    background-color: #696969;
+    width: auto;
+    margin-top: 1.5rem;
+  }
+}
+
+/* It doesn't hurt to keep practicing! */
+
+.flex-wrap {
+  display: flex;
+}
+
+.practice {
+  flex: 3
+}
+
+.three-boxes {
+  flex: 2;
+}
+.hurt-picture {
+  margin: 2rem 1.5rem;
+  width: 60%;
+}

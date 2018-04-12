@@ -170,6 +170,9 @@ nav ul li {
   display: flex;
 }
 
+.hurt-picture {
+}
+
 .practice {
   flex: 3
 }
@@ -195,11 +198,20 @@ nav ul li {
   align-self: center;
 }
 
+.three-boxes a {
+  color: #60CCFE;
+}
+
+.three-boxes h5 {
+  margin: 0.5rem 0;
+}
+
 .three-boxes img {
   float: left;
   height: auto;
   width: 35%;
   align-self: center;
+  margin: 1rem 1rem;
 }
 
 .hurt-picture img{

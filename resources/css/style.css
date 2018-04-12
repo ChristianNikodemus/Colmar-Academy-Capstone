@@ -174,8 +174,16 @@ nav ul li {
   margin: 2rem 1.5rem;
 }
 
+.hurt-picture h2 {
+  margin: 2rem 0 1.5rem 0;
+}
+
+.hurt-picture h6 {
+  bottom: 0;
+}
+
 .practice {
-  border-right: 1px solid #696969;
+  border-right: 1px solid #c0c0c0;
   flex: 3;
 }
 
@@ -185,7 +193,7 @@ nav ul li {
 
 .first-box {
   display: flex;
-  border-bottom: 1px double #696969;
+  border-bottom: 3px solid #c0c0c0;
 }
 
 .first-box img {
@@ -206,6 +214,7 @@ nav ul li {
 
 .third-box {
   display: flex;
+  background-color: #c0c0c0;
 }
 
 .three-boxes div {
@@ -214,7 +223,7 @@ nav ul li {
 }
 
 .three-boxes a {
-  color: #60CCFE;
+  color: #4BABD7;
 }
 
 .three-boxes h5 {

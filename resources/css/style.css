@@ -245,7 +245,7 @@ nav ul li {
 }
 
 @media only screen and (max-width: 480px) {
-  .hurt-picture {
+  .practice {
     display: none;
   }
   .three-boxes {
@@ -308,13 +308,6 @@ nav ul li {
 @media only screen and (max-width: 480px) {
   .learning {
     padding-bottom: 1.5rem;
-    width: 100%;
-  }
-  .added {
-    width: 100%;
-  }
-  .learn-text {
-    width: 100%;
   }
   .learn img {
     display: none;

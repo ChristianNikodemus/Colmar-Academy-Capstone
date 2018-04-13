@@ -261,14 +261,17 @@ nav ul li {
 
 .added {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .learn {
   background-color: white;
+  width: 30%;
+  margin: 1rem;
 }
 
 .learn img {
-  max-width: 100%
+  max-width: 100%;
   height:auto;
   display: block;
 }

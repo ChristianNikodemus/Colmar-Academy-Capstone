@@ -253,6 +253,9 @@ nav ul li {
   .practice {
     display: none;
   }
+  .three-boxes img {
+    float: none;
+  }
   .desktop {
     display: none;
   }

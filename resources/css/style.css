@@ -162,6 +162,7 @@ nav ul li {
     background-color: #696969;
     width: auto;
     margin-top: 1.5rem;
+    border-radius: 0.5rem;
   }
 }
 
@@ -274,6 +275,10 @@ nav ul li {
   margin: 1rem;
 }
 
+.learn-text h3 a{
+  color: #383838;
+}
+
 .learn img {
   max-width: 100%;
   height:auto;
@@ -301,12 +306,12 @@ nav ul li {
   .learn-text h5 {
     display: none;
   }
-  .learn-text {
-    align-content: center;
+  .learn-text h3 {
   }
   .learn {
     width: 100%;
     margin: 0.5rem;
+    border-radius: 0.5rem;
   }
   .learning h2 {
     margin-bottom: 0.5rem;

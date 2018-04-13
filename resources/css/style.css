@@ -289,6 +289,9 @@ nav ul li {
 }
 
 @media only screen and (max-width: 480px) {
+  .learning {
+    padding-bottom: 1.5rem;
+  }
   .learn img {
     display: none;
   }
@@ -298,5 +301,14 @@ nav ul li {
   .learn-text h5 {
     display: none;
   }
+  .learn-text {
+    align-content: center;
+  }
+  .learn {
+    width: 100%;
+    margin: 0.5rem;
+  }
+  .learning h2 {
+    margin-bottom: 0.5rem;
   }
 }

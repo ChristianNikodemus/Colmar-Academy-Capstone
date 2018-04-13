@@ -259,6 +259,10 @@ nav ul li {
   padding: 2rem 4.5rem;
 }
 
+.added {
+  display: flex;
+}
+
 .learn {
   background-color: white;
 }

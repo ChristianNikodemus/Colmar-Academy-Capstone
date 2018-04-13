@@ -241,3 +241,29 @@ nav ul li {
 .hurt-picture img{
   width: 100%;
 }
+
+@media only screen and (max-width: 480px) {
+  .hurt-picture {
+    display: none;
+  }
+}
+
+/* Start Learning */
+
+.learning {
+  background-color: #c0c0c0;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+.learn {
+  background-color: white;
+  display: flex;
+  flex-basis: 20%;
+  justify-content: center;
+}
+
+.learn img {
+  height: auto;
+}

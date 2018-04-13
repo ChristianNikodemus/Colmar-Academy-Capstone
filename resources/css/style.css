@@ -256,7 +256,11 @@ nav ul li {
   display:flex;
   flex-wrap:wrap;
   justify-content: center;
-  padding: 2rem 4.5rem;
+  padding: 2rem 3.5rem 1rem 3.5rem;
+}
+
+.learning h2 {
+  margin-bottom: 1rem;
 }
 
 .added {
@@ -282,4 +286,17 @@ nav ul li {
 
 .learn-text {
   margin: 1rem 0 1.5rem 1rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .learn img {
+    display: none;
+  }
+  .courses {
+    display: none;
+  }
+  .learn-text h5 {
+    display: none;
+  }
+  }
 }

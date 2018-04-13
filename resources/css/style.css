@@ -47,6 +47,7 @@ h3 {
 
 h5 {
   font-size: 1rem;
+  color: #5D5D5D;
 }
 
 h6 {
@@ -106,7 +107,7 @@ nav ul li {
 /* Learn Something new Everyday */
 
 .something {
-  background-color: #c0c0c0;
+  background-color: #C4C4C4;
   display: inline-flex;
   margin-top: 4rem;
 }
@@ -183,7 +184,7 @@ nav ul li {
 }
 
 .practice {
-  border-right: 1px solid #c0c0c0;
+  border-right: 1px solid #C4C4C4;
   flex: 3;
 }
 
@@ -194,7 +195,7 @@ nav ul li {
 
 .first-box {
   display: flex;
-  border-bottom: 3px solid #c0c0c0;
+  border-bottom: 3px solid #C4C4C4;
 }
 
 .first-box img {
@@ -215,7 +216,7 @@ nav ul li {
 
 .third-box {
   display: flex;
-  background-color: #c0c0c0;
+  background-color: #C4C4C4;
 }
 
 .three-boxes div {
@@ -251,19 +252,27 @@ nav ul li {
 /* Start Learning */
 
 .learning {
-  background-color: #c0c0c0;
+  background-color: #C4C4C4;
   display:flex;
   flex-wrap:wrap;
   justify-content: center;
+  padding: 2rem 4.5rem;
 }
 
 .learn {
   background-color: white;
-  display: flex;
-  flex-basis: 20%;
-  justify-content: center;
 }
 
 .learn img {
-  height: auto;
+  max-width: 100%
+  height:auto;
+  display: block;
+}
+
+.courses {
+  margin: 0.5rem 0;
+}
+
+.learn-text {
+  margin: 1rem 0 1.5rem 1rem;
 }

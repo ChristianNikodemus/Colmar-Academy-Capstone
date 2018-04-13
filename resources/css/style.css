@@ -248,6 +248,18 @@ nav ul li {
   .hurt-picture {
     display: none;
   }
+  .three-boxes {
+    width: 100%;
+    flex: 2;
+  }
+  #desktop {
+    display: none;
+  }
+  #mobile {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 }
 
 /* Start Learning */
@@ -296,6 +308,13 @@ nav ul li {
 @media only screen and (max-width: 480px) {
   .learning {
     padding-bottom: 1.5rem;
+    width: 100%;
+  }
+  .added {
+    width: 100%;
+  }
+  .learn-text {
+    width: 100%;
   }
   .learn img {
     display: none;
@@ -317,3 +336,5 @@ nav ul li {
     margin-bottom: 0.5rem;
   }
 }
+
+/* Thesis Exhibit */

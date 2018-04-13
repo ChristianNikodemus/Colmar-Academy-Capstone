@@ -244,21 +244,19 @@ nav ul li {
   width: 100%;
 }
 
+.mobile {
+  display: none;
+  width: 100%;
+}
+
 @media only screen and (max-width: 480px) {
   .practice {
     display: none;
   }
-  .three-boxes {
-    width: 100%;
-    flex: 2;
-  }
-  .three-boxes img {
-    width: 100%;
-  }
-  #desktop {
+  .desktop {
     display: none;
   }
-  #mobile {
+  .mobile {
     max-width: 100%;
     height: auto;
     display: block;

@@ -433,12 +433,14 @@ nav ul li {
 /* Footer */
 
 footer {
-  display: flex;
-  padding: 1rem 1.5rem;
+  display: inline;
+  padding: 1rem 1.5rem 2rem 1.5rem;
 }
 .right {
-  display: flex;
   float: right;
+}
+.right h5{
+  display: inline;
 }
 .right h5 {
   margin-left: 1rem;

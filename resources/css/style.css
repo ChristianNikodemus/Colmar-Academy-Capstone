@@ -388,3 +388,7 @@ nav ul li {
 .two-right-boxes {
   flex: 2;
 }
+.two-right-boxes img{
+  height: auto;
+  width: 35%;
+}

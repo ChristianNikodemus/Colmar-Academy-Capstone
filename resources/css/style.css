@@ -139,6 +139,11 @@ nav ul li {
   text-align: center;
 }
 
+.start:hover{
+  background-color: rgba(56, 56, 56, 0.5);
+  transition: color 2s ease-out;
+}
+
 @media only screen and (max-width: 480px) {
   header {
     width: 89%;
@@ -228,6 +233,11 @@ nav ul li {
 
 .three-boxes a {
   color: #4BABD7;
+}
+
+.three-boxes a:hover {
+  color:#2A6D8C;
+  transition: color 0.3s ease-out;
 }
 
 .three-boxes h5 {
@@ -433,15 +443,22 @@ nav ul li {
 /* Footer */
 
 footer {
-  display: inline;
+  display: flex;
   padding: 1rem 1.5rem 2rem 1.5rem;
+  justify-content: space-between;
 }
 .right {
-  float: right;
-}
-.right h5{
-  display: inline;
+  display: flex;
 }
 .right h5 {
   margin-left: 1rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .right {
+    display: none;
+  }
+  footer {
+    padding: 1rem 1.5rem;
+  }
 }

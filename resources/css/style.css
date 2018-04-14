@@ -290,7 +290,7 @@ nav ul li {
   .campus,
   .lecture {
     align-items: center;
-    margin-left: 1rem;
+    margin: 1rem 0 0 1rem;
   }
 }
 

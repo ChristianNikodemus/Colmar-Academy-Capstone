@@ -275,7 +275,14 @@ nav ul li {
   .flex-wrap {
     border-bottom: 1px solid #C4C4C4;
   }
-}
+  .three-boxes img {
+    width: 93%;
+  }
+  .orientation,
+  .campus,
+  .lecture {
+    float:left;
+  }
 
 /* Start Learning */
 
@@ -348,3 +355,23 @@ nav ul li {
 }
 
 /* Thesis Exhibit */
+
+.thesis {
+  display: flex;
+}
+.both-boxes img {
+  height: auto;
+  width: 35%;
+}
+.left-video-box {
+  flex: 3;
+}
+.left-video-box video {
+  width: 60%;
+}
+.top-right-box {
+  flex: 2;
+}
+.bottom-right-box {
+  flex: 2;
+}

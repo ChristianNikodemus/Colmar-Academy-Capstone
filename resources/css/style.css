@@ -432,11 +432,9 @@ nav ul li {
 
 /* Footer */
 
-.footer {
+footer {
   display: flex;
-}
-.content {
-  display: flex;
+  padding: 1rem 1.5rem;
 }
 .right {
   display: flex;

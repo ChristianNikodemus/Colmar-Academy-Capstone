@@ -263,7 +263,7 @@ nav ul li {
     flex-direction: column;
   }
   .third-box {
-    flex-direction:column;
+    flex-direction: column;
   }
   .mobile {
     max-width: 100%;

@@ -371,6 +371,9 @@ nav ul li {
   flex-wrap: wrap;
   justify-content: center;
 }
+.both-boxes {
+  display: flex;
+}
 .both-boxes img {
   display: block;
   height: auto;

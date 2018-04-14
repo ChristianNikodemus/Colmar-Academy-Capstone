@@ -258,17 +258,22 @@ nav ul li {
   }
   .first-box {
     flex-direction: column;
+    border: none;
   }
   .second-box {
     flex-direction: column;
   }
   .third-box {
     flex-direction: column;
+    background-color: white;
   }
   .mobile {
     max-width: 100%;
     height: auto;
     display: block;
+  }
+  .flex-wrap {
+    border-bottom: 1px solid #C4C4C4;
   }
 }
 
@@ -318,6 +323,7 @@ nav ul li {
 @media only screen and (max-width: 480px) {
   .learning {
     padding:2rem 0.5rem 1.5rem 0.5rem;
+    background-color: white;
   }
   .learn img {
     display: none;
@@ -334,6 +340,7 @@ nav ul li {
     width: 100%;
     margin: 0.5rem;
     border-radius: 0.5rem;
+    background-color: #C4C4C4;
   }
   .learning h2 {
     margin-bottom: 0.5rem;

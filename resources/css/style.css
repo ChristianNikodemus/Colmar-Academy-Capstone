@@ -391,4 +391,9 @@ nav ul li {
 .two-right-boxes img{
   height: auto;
   width: 35%;
+  float: left;
+}
+.top-right-box,
+.bottom-right-box {
+  clear: both;
 }

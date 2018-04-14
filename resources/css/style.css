@@ -368,8 +368,11 @@ nav ul li {
 
 .thesis {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .both-boxes img {
+  display: block;
   height: auto;
   width: 35%;
 }
@@ -377,11 +380,15 @@ nav ul li {
   flex: 3;
 }
 .left-video-box video {
-  width: 60%;
+  width: 100%;
 }
 .top-right-box {
   flex: 2;
+  float: right;
+  flex-direction: column;
 }
 .bottom-right-box {
   flex: 2;
+  float: right;
+  flex-direction: column;
 }

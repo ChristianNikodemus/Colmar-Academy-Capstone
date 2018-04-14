@@ -385,13 +385,6 @@ nav ul li {
 .left-video-box video {
   width: 100%;
 }
-.top-right-box {
+.two-right-boxes {
   flex: 2;
-  float: right;
-  flex-direction: column;
-}
-.bottom-right-box {
-  flex: 2;
-  float: right;
-  flex-direction: column;
 }

@@ -262,6 +262,7 @@ nav ul li {
   }
   .second-box {
     flex-direction: column;
+    margin: 4rem 0;
   }
   .third-box {
     flex-direction: column;
@@ -276,13 +277,22 @@ nav ul li {
     border-bottom: 1px solid #C4C4C4;
   }
   .three-boxes img {
-    width: 93%;
+    width: 100%;
+    margin: 0;
+  }
+  .three-boxes div {
+    align-self: flex-start;
+  }
+  .three-boxes {
+    margin: 1rem 1rem 2rem 1rem;
   }
   .orientation,
   .campus,
   .lecture {
-    float:left;
+    align-items: center;
+    margin-left: 1rem;
   }
+}
 
 /* Start Learning */
 

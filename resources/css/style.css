@@ -86,6 +86,11 @@ nav ul li {
   padding-left: 1rem;
 }
 
+header a:hover{
+  color: rgba(56, 56, 56, 0.5);
+  transition: color 0.3s ease-out;
+}
+
 .mobile {
   display: none;
 }

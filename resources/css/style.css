@@ -141,7 +141,11 @@ nav ul li {
 
 .start:hover{
   background-color: rgba(56, 56, 56, 0.5);
-  transition: color 2s ease-out;
+  transition: background-color 0.3s ease-out;
+}
+
+.start:visited{
+  background-color: rgba(56, 56, 56, 0.5);
 }
 
 @media only screen and (max-width: 480px) {

@@ -383,9 +383,11 @@ header a:hover{
   .learning h2 {
     margin-bottom: 0.5rem;
   }
-  .learn-text:hover{
-    color: white;
+  .learn-text a:hover{
+    color: rgba(56, 56, 56, 0.5);
+    transition: color 0.3s ease-out;
   }
+
 }
 
 /* Thesis Exhibit */

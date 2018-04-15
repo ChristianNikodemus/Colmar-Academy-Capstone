@@ -383,6 +383,9 @@ header a:hover{
   .learning h2 {
     margin-bottom: 0.5rem;
   }
+  .learn-text:hover{
+    color: white;
+  }
 }
 
 /* Thesis Exhibit */
